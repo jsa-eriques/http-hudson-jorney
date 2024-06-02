@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+.titulo{
+    align-items: top;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+    top: 0px;
+    background-color: green;
+}
+
+.nav{
+    
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    background-color: green;
+}
+
+.nav a{
+    font-size: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+   color: white;
+}
+
+
+.titulo h1{
+    font-size: 50px;
+    margin-top: 30px;
+   color: white;}
+
+.minha-foto{
+    border-radius: 20px;
+    margin: 20px;
+    height: 300px;
+}   
+
+.nome{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+    
